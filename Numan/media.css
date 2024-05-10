@@ -1,0 +1,126 @@
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .main-text h2 {
+    font-size: 2.7rem;
+    left: 0px;
+    font-size: 6.7rem;
+    left: 0px;
+    right: 0%;
+    top: 25%;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.7);
+    line-height: 7rem;
+font-weight: 600
+  
+  }
+  .main-img {
+    background-position: 46% 0%;
+    background-size: cover;
+  }
+
+  #dropdown1 {
+    width: 66%;
+    left: 18%;
+    border-radius: 8px;
+    top: 61%;
+    height: 7%;
+  }
+
+  #dropdown2 {
+    width: 66%;
+    left: 18%;
+    border-radius: 8px;
+    top: 73%;
+    height: 7%;
+  }
+
+  .btn {
+    height: 36px;
+    width: 25%;
+    left: 38%;
+    top: 84%;
+    font-size: 17px;
+    border-radius: 5px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .main-text h2 {
+    font-size: 2.7rem;
+    left: 0px;
+    right: 0%;
+    top: 31%;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.7);
+    line-height: 3rem;
+  }
+  .main-img {
+    background-position: 46% 0%;
+    background-size: cover;
+  }
+
+  #dropdown1 {
+    width: 81%;
+    left: 10%;
+    border-radius: 8px;
+    top: 56%;
+    height: 7%;
+  }
+
+  #dropdown2 {
+    width: 81%;
+    left: 10%;
+    border-radius: 8px;
+    top: 65%;
+    height: 7%;
+  }
+
+  .btn {
+    height: 34px;
+    width: 42%;
+    left: 27%;
+    top: 76%;
+    font-size: 19px;
+    border-radius: 4px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+  .main-text h2 {
+    font-size: 3.5rem;
+    left: 0px;
+    right: 0%;
+    top: 29%;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.7);
+    line-height: 3.5rem;
+  }
+  .main-img {
+    background-position: 46% 0%;
+    background-size: cover;
+  }
+
+  #dropdown1 {
+    width: 65%;
+    left: 18%;
+    border-radius: 8px;
+    top: 56%;
+    height: 6%;
+  }
+
+  #dropdown2 {
+    top: 64%;
+    width: 65%;
+    left: 18%;
+    border-radius: 8px;
+    height: 6%;
+  }
+
+  .btn {
+    height: 36px;
+    width: 30%;
+    left: 35%;
+    top: 76%;
+    font-size: 21px;
+    border-radius: 4px;
+    line-height: 38px;
+  }
+}

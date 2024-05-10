@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bakbak One", "Inter";
+  text-align: center;
+  /* font-size: 100%; */
+}
+
+.main-img {
+  background-image: url(./Assets/gcet.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-position: 100% 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-text h2 {
+  position: fixed;
+  left: 20%;
+  top: 14%;
+  font-size: 8rem;
+  line-height: 8rem;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+#dropdown1 {
+  position: absolute;
+  top: 65%;
+  left: 32%;
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+#dropdown2 {
+  position: absolute;
+  top: 65%;
+  left: 53%;
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+
+  font-weight: 100;
+}
+
+.btn {
+  position: absolute;
+  top: 80%;
+  background-color: #fff;
+  height: 30px;
+  line-height: 2rem;
+  text-align: center;
+  width: 12%;
+  border-radius: 4px;
+  left: 46%;
+  font-size: 18px;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+}
