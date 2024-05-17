@@ -3,25 +3,77 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: "Bakbak One", "Inter";
   text-align: center;
-  /* font-size: 100%; */
+  
+  font-size: 10px;
 }
 
-.main-img {
+body {
   background-image: url(./Assets/gcet.jpeg);
-  height: 100vh;
-  width: 100vw;
-  background-position: 100% 60%;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.main-text h2 {
-  position: fixed;
-  left: 20%;
-  top: 14%;
+
+
+
+.main-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10vmin;
+}
+.main-one #dropdown1{
+  width: 52vh;
+  height: 4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 5px;
+}
+
+.main-two #dropdown2 {
+ 
+  width: 52vh;
+  height: 4rem ;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 5px;
+ 
+}
+
+.btn {
+  background-color: #fff;
+  height: 30px;
+ 
+  text-align: center;
+  width: 11rem;
+  border-radius: 4px;
+ 
+ margin-top:2rem ;
+  border: none;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30vmin;
+  text-align: center;
+
+
   font-size: 8rem;
   line-height: 8rem;
   letter-spacing: 4px;
@@ -31,44 +83,9 @@
   font-weight: 600;
 }
 
-#dropdown1 {
-  position: absolute;
-  top: 65%;
-  left: 32%;
-  width: 16rem;
-  height: 2.5rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 100;
+.main > h2 {
+  color: white;
+  font-size: 8vmax;
+  line-height: 8vmax;
 }
 
-#dropdown2 {
-  position: absolute;
-  top: 65%;
-  left: 53%;
-  width: 16rem;
-  height: 2.5rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-
-  font-weight: 100;
-}
-
-.btn {
-  position: absolute;
-  top: 80%;
-  background-color: #fff;
-  height: 30px;
-  line-height: 2rem;
-  text-align: center;
-  width: 12%;
-  border-radius: 4px;
-  left: 46%;
-  font-size: 18px;
-}
-.btn a {
-  text-decoration: none;
-  color: black;
-}

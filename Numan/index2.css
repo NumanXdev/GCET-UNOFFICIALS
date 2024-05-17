@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Bakbak One", "Inter";
-    font-size: 20px;
+    font-size: 70px;
 }
 .nav-bar{
     position: fixed;
@@ -15,16 +15,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 10px 10px 10px black;
     box-shadow: 1px 1px 10px black
 }
 .home{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 0.4rem;
 }
-.nav-bar img{
-    height: 34px;
-    width: 75px;
+.nav-icon img{
+    height: 36px;
+    width: 65px;
+ margin-left: 40px;
+}
+
+.notify img{
+    height: 42px;
+    width: 92px;
 }
 
 .nav-bar i{
@@ -33,6 +38,12 @@
     margin-left: 100px;
 
 }
+
 .nav-bar .notify{
-margin-right: 100px;
+margin-right: 40px;
+}
+
+
+@media only screen and (min-width:400px) {
+    
 }
