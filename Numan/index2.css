@@ -1,49 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter:wght@100..900&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Bakbak One", "Inter";
-    font-size: 70px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bakbak One", "Inter";
 }
-.nav-bar{
-    position: fixed;
-    width: 100vw;
-    height:70px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 1px 1px 10px black
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  height: 14vmin;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* box-shadow: 1px 1px 10px black; */
+  z-index: 100;
 }
-.home{
+.nav-icon img {
+  height: 7vmin;
+  width: 11vmin;
+  margin-left: 1rem;
+}
+
+.home {
+  font-weight: 600;
+  font-size: 6vmin;
+}
+
+.notify {
+  text-align: center;
+}
+.notify img {
+  height: 7vmin;
+  width: 9vmax;
+}
+
+.nav-bar .notify {
+  margin-right: 1rem;
+}
+
+.main-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 22vmin;
+  flex-wrap: wrap;
+}
+
+.main-sec img {
+  width: 24vmin;
+  height: 16vmin;
+  border-radius: 15px;
+}
+
+.main-title{
     font-weight: 600;
-    font-size: 0.4rem;
-}
-.nav-icon img{
-    height: 36px;
-    width: 65px;
- margin-left: 40px;
-}
-
-.notify img{
-    height: 42px;
-    width: 92px;
-}
-
-.nav-bar i{
-    color: black;
-    font-size: 25px;
-    margin-left: 100px;
-
-}
-
-.nav-bar .notify{
-margin-right: 40px;
-}
-
-
-@media only screen and (min-width:400px) {
+    font-size: 2vw;
+    position: absolute;
+    top: 44vmin;
+    margin-left: 7vmin;
     
+}
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20rem;
+}
+.main-body img{
+    height: 12rem;
+    width: 20rem;
 }
