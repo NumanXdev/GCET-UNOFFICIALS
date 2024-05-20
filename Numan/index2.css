@@ -11,7 +11,7 @@
   position: fixed;
   width: 100%;
   height: 14vmin;
-  background-color: #eeee;
+  background-color: #eee;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,8 +73,8 @@
   top: 20rem;
 }
 .main-body img {
-  height: 12rem;
-  width: 20rem;
+
+  width:85vmin;
 }
 
 .result {
@@ -126,4 +126,18 @@ a {
   font-weight: 600;
   font-size: 6vmin;
   visibility: hidden;
+}
+
+.main-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 57vmin;
+  width: 100%;
+}
+
+@media(min-width:1024px){
+
 }

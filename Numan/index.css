@@ -5,7 +5,7 @@
   margin: 0;
   font-family: "Bakbak One", "Inter";
   text-align: center;
-  
+
   font-size: 10px;
 }
 
@@ -17,17 +17,14 @@ body {
   background-attachment: fixed;
 }
 
-
-
-
-.main-body{
+.main-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 10vmin;
 }
-.main-one #dropdown1{
+.main-one #dropdown1 {
   width: 52vh;
   height: 4rem;
   border-radius: 6px;
@@ -38,26 +35,24 @@ body {
 }
 
 .main-two #dropdown2 {
- 
   width: 52vh;
-  height: 4rem ;
+  height: 4rem;
   border-radius: 6px;
   cursor: pointer;
   font-size: 1.8rem;
   font-weight: 100;
   margin: 5px;
- 
 }
 
 .btn {
   background-color: #fff;
   height: 32px;
- 
+
   text-align: center;
   width: 12rem;
   border-radius: 4px;
- 
- margin-top:2rem ;
+
+  margin-top: 2rem;
   border: none;
   font-size: 15px;
   cursor: pointer;
@@ -74,8 +69,6 @@ body {
   align-items: center;
   margin-top: 26vmin;
   text-align: center;
-
-
   font-size: 8rem;
   line-height: 8rem;
   letter-spacing: 4px;
@@ -91,8 +84,8 @@ body {
   line-height: 8vmax;
 }
 
-@media (max-width:450px){
+/* @media (max-width:450px){
   .main h2{
     margin-top: 5rem;
   }
-}
+} */
