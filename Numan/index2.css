@@ -35,7 +35,6 @@
 }
 .notify img {
   height: 6vmin;
-  width: 8vmax;
 }
 
 .nav-bar .notify {
@@ -55,7 +54,6 @@
 .main-sec img {
   width: 22vmin;
   height: 14vmin;
-  /* border-radius: 15px; */
 }
 
 .main-title {
@@ -73,8 +71,7 @@
   top: 20rem;
 }
 .main-body img {
-
-  width:85vmin;
+  width: 85vmin;
 }
 
 .result {
@@ -136,8 +133,4 @@ a {
   position: absolute;
   top: 57vmin;
   width: 100%;
-}
-
-@media(min-width:1024px){
-
 }

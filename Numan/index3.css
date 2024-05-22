@@ -5,13 +5,13 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Bakbak One", "Inter";
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 .nav-bar {
   position: fixed;
   width: 100%;
   height: 14vmin;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,27 +41,19 @@
 }
 
 .main-body {
-
   display: grid;
   width: 100%;
-  height: 80vh;
   background-color: black;
   grid-template-rows: 30% 30%;
   grid-template-columns: 20% 20% 20% 20% 20%;
   top: 12vmax;
   position: fixed;
-    /* background-color: yellow; */
-    grid-gap: 10px 10px;
-     background-color: #EEEEEE;
-     place-items: center;
-     
-     
+  grid-gap: 20px 10px;
+  background-color: #eeeeee;
+  place-items: center;
 }
 
-
-.box{
-  /* width: 14vmax;
-  height: 16vmax; */
+.box {
   background-color: #f7f1ff;
   text-align: center;
   border-radius: 10px;
@@ -69,40 +61,44 @@
   margin: 10px;
 }
 
-
 @media (max-width: 600px) {
   .main-body {
     grid-template-rows: 25% 25% 25%;
     grid-template-columns: repeat(3, 1fr);
     height: 100vh;
-    
   }
-  .box{
+  .box {
     width: 14vmax;
     height: 19vmax;
   }
 }
-.box1{
+.box1 {
   background-image: url(./Assets/Untitled\ design.png);
   background-size: cover;
 }
 
-.div{
+.div {
   position: fixed;
   background-color: white;
   top: 30vmax;
   font-size: 2vmin;
-
 }
 
 @media (min-width: 600px) {
   .main-body {
-
     grid-template-rows: 45% 45%;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5vmin;
   }
-  .box{
+  .box {
     width: 12vmax;
     height: 14vmax;
   }
-} 
+}
+
+@media (max-width: 450px) {
+ .main-body{
+  grid-template-columns: repeat(2, 1fr);
+  height: 74vmax;
+ }
+}
