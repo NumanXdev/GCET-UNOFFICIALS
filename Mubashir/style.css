@@ -19,7 +19,6 @@
   width: 100%;
   color: white;
   margin-top: 15px;
-  padding: 20px, 18px, 36px, 18px;
   margin-top: 90px;
 }
 #msg {
@@ -56,10 +55,13 @@
   align-self: center;
   font-size: large;
   font-weight: 900;
+  margin-top:1rem ;
 }
 .updates {
   font-weight: 900;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 3vmin;
+
 }
