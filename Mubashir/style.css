@@ -30,6 +30,7 @@
     border-radius: 8px;
     display: flex;
     align-items: center;
+    padding: 3vmin;
 }
 .messages{
     background-color: #000000;
@@ -38,6 +39,7 @@
     border-radius: 8px;
     display: flex;
     align-items: center;
+    padding: 3vmin;
 
 }
 .projects{
