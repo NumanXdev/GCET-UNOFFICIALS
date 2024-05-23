@@ -22,7 +22,7 @@
   padding: 20px, 18px, 36px, 18px;
   margin-top: 90px;
 }
-.randomtext {
+#msg {
   background-color: #000000;
   height: 80px;
   margin-top: 20px;
@@ -31,7 +31,7 @@
   align-items: center;
   padding: 3vmin;
 }
-.messages {
+#Umsg {
   background-color: #000000;
   height: 60px;
   margin-top: 20px;
@@ -40,7 +40,7 @@
   align-items: center;
   padding: 3vmin;
 }
-.projects {
+#Projects {
   background-color: #000000;
   height: 40px;
   margin-top: 20px;
@@ -49,7 +49,7 @@
   align-items: center;
   padding: 3vmin;
 }
-.generalmsg {
+#gnrl {
   color: black;
   display: flex;
   justify-content: center;
