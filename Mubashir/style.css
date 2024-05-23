@@ -58,5 +58,7 @@
 }
 .updates h1{
     font-weight: 900;
-    margin-left: 575px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
