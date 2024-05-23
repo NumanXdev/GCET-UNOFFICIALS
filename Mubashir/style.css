@@ -1,67 +1,65 @@
-*{
-    padding: 0;
-    /* margin: 0; */
-    box-sizing: border-box;
-    font-family: "Bakbak One","Inter";
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bakbak One", "Inter";
 }
 
-.moreicon{
-    height: 30px;
-    width: 60px;
-    margin-left: 20px;
+.moreicon {
+  margin-left: 10px;
 }
-.navbar{
-    display: flex;
-    justify-content:start;
-    align-items: center;
+.moreicon img {
+  width: 10vmin;
 }
-.content{
-    width: 100%;
-    color: white;
-    margin-top: 15px;
-    padding: 20px,18px,36px,18px;
-    margin-top: 90px;
-
+.navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
-.randomtext{
-    background-color: #000000;
-    height: 80px;
-    margin-top: 20px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    padding: 3vmin;
+.content {
+  width: 100%;
+  color: white;
+  margin-top: 15px;
+  padding: 20px, 18px, 36px, 18px;
+  margin-top: 90px;
 }
-.messages{
-    background-color: #000000;
-    height: 60px;
-    margin-top: 20px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    padding: 3vmin;
-
+.randomtext {
+  background-color: #000000;
+  height: 80px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 3vmin;
 }
-.projects{
-    background-color: #000000;
-    height: 40px;
-    margin-top: 20px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    padding: 3vmin;
+.messages {
+  background-color: #000000;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 3vmin;
 }
-.generalmsg{
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    font-size:large;
-    font-weight: 900;
+.projects {
+  background-color: #000000;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 3vmin;
+}
+.generalmsg {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: large;
+  font-weight: 900;
 }
 .updates {
-    font-weight: 900;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
