@@ -115,7 +115,7 @@ a {
   box-shadow: -10px 0px 23px black;
 }
 
-.right div {
+.right div, .result div {
   margin-top: 14vh;
   background-color: #eeee;
 }
