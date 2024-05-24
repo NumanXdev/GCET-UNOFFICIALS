@@ -2,6 +2,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Bakbak One", "Inter";
+  background-color:#eee ;
 }
 
 .moreicon {
@@ -9,9 +10,13 @@
 }
 .moreicon img {
   width: 10vmin;
+  cursor: pointer;
 }
 
 .navbar {
+  position: relative;
+  z-index: 100;
+  height: 14vmin;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,3 +95,52 @@
     font-size: 2vmin;
   }
 }
+
+.right {
+  top:0;
+  background-color: #eee;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 40vmin;
+  left:0px;
+  align-items: center;
+  transition: left 0.3s ease;
+  box-shadow: -10px 0px 23px black;
+}
+
+.right div, .result div {
+  margin-top: 14vh;
+  background-color: #eeee;
+}
+
+.remove {
+
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 4vmin;
+}
+.sections li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.result {
+  top:0;
+  background-color: #eee;
+   position: fixed;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   height: 100vh;
+   width: 40vmin;
+   left: -50vmin;
+   align-items: center;
+   transition: left 0.3s ease;
+   box-shadow: -10px 0px 23px black;
+ }
