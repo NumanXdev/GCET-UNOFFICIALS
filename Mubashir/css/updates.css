@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bakbak One", "Inter";
+  background-color: #eee;
+}
+
+.moreicon {
+  margin-left: 10px;
+}
+.moreicon img {
+  cursor: pointer;
+  width: 10vmin;
+}
+.navbar {
+  height: 14vmin;
+  display: flex;
+  position: relative;
+  z-index: 100;
+  justify-content: start;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  color:#eee;
+  margin-top: 15px;
+  margin-top: 90px;
+}
+#msg {
+  background-color: #000000;
+  height: 80px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 3vmin;
+}
+#Umsg {
+  background-color: #000000;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 3vmin;
+}
+#Projects {
+  background-color: #000000;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 3vmin;
+}
+#gnrl {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: large;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+.updates {
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3vmin;
+}
+.remove {
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3vmin;
+  visibility: hidden;
+}
+
+.right {
+  background-color: #eee;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 40vmin;
+  top:0;
+  left:0px;
+  align-items: center;
+  transition: left 0.3s ease;
+  box-shadow: -10px 0px 23px black;
+}
+.result {
+  top:0;
+  background-color: #eee;
+   position: fixed;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   height: 100vh;
+   width: 40vmin;
+   left: -50vmin;
+   align-items: center;
+   transition: left 0.3s ease;
+   box-shadow: -10px 0px 23px black;
+ }
+ 
+ .right div, .result div {
+  margin-top: 14vh;
+  background-color: #eeee;
+}
+.sections li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 4vmin;
+}

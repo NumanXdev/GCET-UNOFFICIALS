@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bakbak One", "Inter";
+  background-color:#eee ;
+}
+
+.moreicon {
+  margin-left: 10px;
+}
+.moreicon img {
+  width: 10vmin;
+  cursor: pointer;
+}
+.updates{
+font-size:3vmin;
+}
+.navbar {
+  position: relative;
+  z-index: 100;
+  height: 14vmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-body h3 {
+  position: absolute;
+  top: 7vmin;
+  font-size: 11vmin;
+  letter-spacing: 2px;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph p {
+  position: absolute;
+  top: 38vmin;
+  color: black;
+  font-family: "Inter";
+  font-size: 3vmin;
+  text-align: center;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 59vmin;
+  font-size: 3.4vmin;
+}
+
+.msg {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vmin;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons img {
+  height: 6vmin;
+  cursor: pointer;
+}
+.bell-outline img {
+  width: 15vmin;
+}
+@media (max-width: 450px) {
+  .main-body h3 {
+    top: 16vmin;
+    font-size: 10.5vmin;
+  }
+  .paragraph p {
+    top: 47vmin;
+    font-size: 4vmin;
+  }
+  .home {
+    margin-top: 73vmin;
+  }
+  .msg {
+    font-size: 2vmin;
+  }
+}
+
+.right {
+  top:0;
+  background-color: #eee;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 40vmin;
+  left:0px;
+  align-items: center;
+  transition: left 0.3s ease;
+  box-shadow: -10px 0px 23px black;
+}
+
+.right div, .result div {
+  margin-top: 14vh;
+  background-color: #eeee;
+}
+
+.remove {
+
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 4vmin;
+}
+.sections li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.result {
+  top:0;
+  background-color: #eee;
+   position: fixed;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   height: 100vh;
+   width: 40vmin;
+   left: -50vmin;
+   align-items: center;
+   transition: left 0.3s ease;
+   box-shadow: -10px 0px 23px black;
+ }
