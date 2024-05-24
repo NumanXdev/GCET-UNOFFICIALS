@@ -12,7 +12,9 @@
   width: 10vmin;
   cursor: pointer;
 }
-
+.updates{
+font-size:3vmin;
+}
 .navbar {
   position: relative;
   z-index: 100;
