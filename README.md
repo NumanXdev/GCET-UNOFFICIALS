@@ -1,4 +1,4 @@
-## 👉Design By <a href="https://github.com/FaheemorFAB">@Faheem<a>
+## 👉Layout By <a href="https://github.com/FaheemorFAB">@Faheem<a>
 
 
 ## Contributor Guidelines
