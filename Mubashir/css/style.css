@@ -55,7 +55,7 @@
   align-self: center;
   font-size: large;
   font-weight: 900;
-  margin-top:1rem ;
+  margin-top: 1rem;
 }
 .updates {
   font-weight: 900;
@@ -63,5 +63,4 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 3vmin;
-
 }
