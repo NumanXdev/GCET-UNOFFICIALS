@@ -1,3 +1,6 @@
+## 👉Design By <a href="https://github.com/FaheemorFAB">@Faheem<a>
+
+
 ## Contributor Guidelines
 
 Welcome to our collaborative project! This repository is the foundation for building a platform where students can access and share study materials. Here's how you can contribute to this platform:
