@@ -114,6 +114,7 @@
    justify-content: flex-start;
    flex-direction: column;
    height: 100vh;
+   top:0;
    width: 40vmin;
    left: -50vmin;
    align-items: center;
@@ -121,6 +122,7 @@
    box-shadow: -10px 0px 23px black;
  }
  .right {
+  top:0;
   background-color: #eee;
   position: fixed;
   display: flex;
