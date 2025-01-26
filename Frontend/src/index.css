@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  scrollbar-color: #8e8e8e #fff;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+#root {
+  font-family: "Poppins", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.gcet {
+  background-image: url(/Assets/gcet.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.GCET {
+  font-size: clamp(1rem, 25vw, 4rem);
+  font-weight: 600;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .GCET {
+    font-size: 7rem !important;
+    letter-spacing: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .GCET {
+    letter-spacing: 0;
+    letter-spacing: 0.1rem;
+    font-size: clamp(1rem, 25vw, 3.5rem);
+  }
+}
+
+.SocialHome {
+  width: 7rem;
+  height: auto;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 4vmax;
+  letter-spacing: 0.1rem;
+}
+.Home {
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.join {
+  font-weight: bold;
+  font-size: 0.6rem;
+}
+.socials {
+  font-size: 1.7rem;
+}
+.icon-link {
+  margin-right: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.socials span {
+  margin-left: 5px;
+  color: black;
+}
+.Footer {
+  height: 15vh;
+  background: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+/* --------------> so that the content takes the remaining space : Footer Solved */
+.container {
+  flex: 1;
+}
+
+/* -------------> Navbar <----------------- */
+
+.Navbar {
+  background: #eeeeee;
+}
+.hamburger {
+  cursor: pointer;
+  border: none;
+}
+
+/*--------> Drawer <----------- */
+
+.drawer {
+  left: -1000px;
+  position: fixed;
+  z-index: 1002;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  width: 250px;
+  background-color: #eee;
+  color: black;
+  font-weight: 600;
+  transition: left 0.6s ease;
+  height: 100vh;
+  top: 0;
+}
+.open {
+  left: 0;
+}
+.drawer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 5rem;
+  flex-direction: column;
+}
+
+.drawer ul li {
+  margin: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.aboutus {
+  font-weight: 600;
+}
+
+.pnf {
+  height: 80vh;
+}

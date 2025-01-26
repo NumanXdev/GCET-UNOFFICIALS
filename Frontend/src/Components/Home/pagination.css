@@ -1,0 +1,59 @@
+/* ----------------------> Pagination GPT <----------------------- */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1.5rem;
+  padding: 10px 0;
+}
+
+.pagination button {
+  width: 45px;
+  height: 45px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2a2d3e;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pagination button:hover {
+  background-color: #40455a;
+  transform: translateY(-2px);
+}
+
+.pagination button.active {
+  background-color: #ffd700;
+  color: #2a2d3e;
+  font-weight: 800;
+  border-color: #ffd700;
+  transform: scale(1.1);
+}
+
+.pagination button:focus {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.pagination button:disabled {
+  background-color: #888;
+  color: #fff;
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .pagination button {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
