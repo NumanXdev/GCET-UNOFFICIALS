@@ -1,6 +1,4 @@
-# GCET UNOFFICIALS Contributor Guidelines
-
-## 👉 Layout By: [@Faheem](https://github.com/FaheemorFAB)
+# GCET UNOFFICIALS 
 
 ---
 
