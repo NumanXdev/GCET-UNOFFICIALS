@@ -1,46 +1,68 @@
-## 👉Site <a href="https://gcet-cse2022.github.io/GCET-UNOFFICIALS/">View Live<a>
-## 👉Layout By <a href="https://github.com/FaheemorFAB">@Faheem<a>
+# GCET UNOFFICIALS Contributor Guidelines
 
+## 👉 Layout By: [@Faheem](https://github.com/FaheemorFAB)
+
+---
 
 ## Contributor Guidelines
 
-Welcome to our collaborative project! This repository is the foundation for building a platform where students can access and share study materials. Here's how you can contribute to this platform:
+Welcome to the **GCET UNOFFICIALS** repository! This project is currently in the **development phase**. While it is publicly accessible on GitHub, **only authorized contributors** are allowed to submit pull requests at this time. We plan to open contributions to everyone in the future, but for now, only designated contributors can open PRs.
 
-1. **Fork the Repository:**
-   - Fork the main repository to your GitHub account:
-     ```
-     git clone https://github.com/GCET-CSE2022/GCET-UNOFFICIALS.git
-     ```
+If you are an authorized contributor, please follow these steps:
 
-2. **Create a New Branch:**
-   - Create a new branch for your work:
-     ```
-     git checkout -b your-branch-name
-     ```
+### 1. Clone the Repository
 
-3. **Make Changes:**
-   - Develop new features or enhancements to improve the platform.
+- Clone the repository to your local machine:
+  ```bash
+  git clone https://github.com/GCET-CSE2022/GCET-UNOFFICIALS.git
+  ```
 
-4. **Commit Changes:**
-   - Commit your changes to the branch:
-     ```
-     git add .
-     git commit -m "Your commit message"
-     ```
+### 2. Create a New Branch
 
-5. **Push Changes:**
-   - Push the branch to your forked repository:
-     ```
-     git push origin your-branch-name
-     ```
+- Create a branch specific to your changes:
+  ```bash
+  git checkout -b your-branch-name
+  ```
 
-6. **Create a Pull Request (PR):**
-   - Open a pull request from your branch to the main repository.
+### 3. Work on Your Changes
 
-7. **Review and Address Feedback:**
-   - Collaborate with other contributors by responding to feedback and addressing any requested changes in your pull request.
+- Work on the features, bug fixes, or improvements as required by the project.
 
-8. **Merge Pull Request:**
-   - Once your pull request is approved, it will be merged into the main repository by a project maintainer.
+### 4. Commit Your Changes
 
-Feel free to contribute to the development of this platform, whether it's adding new features, improving existing functionality, or enhancing the user experience. Let's work together to create a valuable resource for all students!
+- Add and commit your updates:
+  ```bash
+  git add .
+  git commit -m "Brief description of your changes"
+  ```
+
+### 5. Push Changes
+
+- Push your branch to the remote repository:
+  ```bash
+  git push origin your-branch-name
+  ```
+
+### 6. Open a Pull Request (PR)
+
+- Submit a pull request to the main repository for review. Please ensure your PR includes a clear description of the changes and their purpose.
+
+### 7. Collaborate and Revise
+
+- Engage with reviewers and address any feedback or requested changes promptly.
+
+### 8. Merge Upon Approval
+
+- After your pull request is approved by a maintainer, it will be merged into the main branch.
+
+---
+
+### Important Notes:
+
+- **Public Access, Limited Contributions**: The repository is public, but contributions are currently limited to authorized collaborators. Please do not submit unsolicited pull requests.
+- **Confidentiality**: While the repository is public, treat its content with respect and avoid sharing links or content without approval.
+- **Future Plans**: Contributions will be open to everyone in the future. Stay tuned for updates!
+
+---
+
+Thank you for your understanding and support! Let's work together to bring this platform to life. 🚀
